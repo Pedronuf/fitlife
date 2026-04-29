@@ -14,14 +14,16 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffff;
+    
+    height: 80px;
+    background-color: #fff;
     padding: 0 80px;
     box-shadow: 0 2px 8px rgba(0 , 0, 0, 0.1);
 }
 
 .logo {
     display: flex;
-    algin-items: center;
+    align-items: center;
     gap: 8px;
     font-size: 24px;
     color: #00b894;
@@ -37,7 +39,7 @@ nav {
 .nav-link {
     text-decoration: none;
     color: #2d3436;
-    front-size: 16px;
+    font-size: 16px;
 }
 
 .nav-link:hover {
@@ -45,7 +47,7 @@ nav {
 }
 
 #nav-active {
-    border-botton: 3px solid  #00b894;
+    border-bottom: 3px solid  #00b894;
     color: #00b894;
 }
 
